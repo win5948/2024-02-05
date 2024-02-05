@@ -3,6 +3,8 @@ package com.ll.tdd20240205;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.transaction.annotation.Transactional;
+
 
 import java.util.List;
 import java.util.Optional;
@@ -19,6 +21,7 @@ class Tdd20240205ApplicationTests {
     @Autowired
     private AnswerRepository answerRepository;
 
+    @Transactional
     @Test
     void testJpa() {
         Optional<Question> oq = this.questionRepository.findById(2);
