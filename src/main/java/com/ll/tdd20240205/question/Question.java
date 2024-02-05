@@ -1,5 +1,6 @@
-package com.ll.tdd20240205;
+package com.ll.tdd20240205.question;
 
+import com.ll.tdd20240205.answer.Answer;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;

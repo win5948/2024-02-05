@@ -1,4 +1,4 @@
-package com.ll.tdd20240205;
+package com.ll.tdd20240205.question;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

@@ -1,5 +1,9 @@
 package com.ll.tdd20240205;
 
+import com.ll.tdd20240205.answer.Answer;
+import com.ll.tdd20240205.answer.AnswerRepository;
+import com.ll.tdd20240205.question.Question;
+import com.ll.tdd20240205.question.QuestionRepository;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
